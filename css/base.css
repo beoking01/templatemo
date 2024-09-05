@@ -1,0 +1,42 @@
+:root{
+    --white-colour: #ffffff;
+    --pink-colour: #fc5a9f;
+    --blue-colour: #8261ee;
+}
+
+*{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+.btn-l{
+    background-color: var(--pink-colour);
+    border-radius: 20px;
+    color:#fff;
+    display: inline;
+    font-size: 1.2rem;
+    letter-spacing: 0.25px;
+    line-height: 19.5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-m{
+    background-color: var(--blue-colour);
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.25px;
+    line-height: 19.5px;
+    margin: 10px 0 0 ;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
