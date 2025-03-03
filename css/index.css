@@ -49,23 +49,19 @@ a{
 .header__navbar-item{
     list-style: none;
     font-size: 1.6rem;
-    line-height: 30px; 
+    line-height: 15px; 
     display: flex;
     align-items: center;
 }
-/* @media (min-width: 1024px) and (max-width: 1200px){
+@media (min-width: 1024px) and (max-width: 1200px){
     .header__navbar-item{
-        margin: 14px 14px 0 14px;
-        line-height: 45px;
     }
 } 
 @media (max-width: 1023px){
     .header__navbar-item{
-        margin: 14px 14px 0 14px;
-        line-height: 45px;
         font-size: 1.4rem;
     }
-} */
+}
  .header__navbar-iteprimary{
     color: var(--pink-colour);
  }
@@ -155,7 +151,7 @@ a{
 .header__feature--img{
     width: 90px;
     height: 90px;
-    margin: 0 100px 30px;
+    margin: 0 auto 30px;
     background-color: var(--blue-colour);
     border-radius: 100%;
     line-height: 90px;
